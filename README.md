@@ -2,9 +2,7 @@
 
 ## 1. 简介
 ### 适用人群
-- 对 AI 与编程感兴趣的初学者  
-- 使用微软产品（Visual Studio Code、GitHub、Azure 等）的开发者  
-- 希望利用 AI 提升工作与学习效率的职场人士  
+- 所有人 
 
 ### 学习收获
 - 掌握微软 AI 生态的核心工具与服务  
@@ -17,13 +15,13 @@
 - 通过实际案例快速上手，降低入门难度  
 
 ### 课程内容概览
-- VS Code、GitHub、Azure AI、Copilot 的环境配置与使用  
+- VS Code、GitHub、Azure AI Fountry、Copilot Studio的环境配置与使用  
 - 从小程序到多轮对话系统的实战项目  
 - AI 辅助开发（Vibe Coding、Copilot Studio）  
 
 ### 局限性
-- 课程侧重入门与实践，不涉及复杂算法或模型训练  
-- 部分服务（如 GitHub Copilot、Azure OpenAI）需要付费订阅或企业账号  
+- 课程侧重入门，不涉及复杂算法或模型训练  
+- 部分服务（如 GitHub Copilot、Azure AI Fountry和Copilot Studio）需要付费订阅或企业账号
 
 ---
 
@@ -36,12 +34,9 @@
 ### 工具安装清单
 - **Visual Studio Code**  
 - **GitHub 账号与 Git 工具**  
-- **Azure AI Foundry / Azure OpenAI** 订阅  
-- **浏览器插件**（如 Postman/Thunder Client）  
-
-### 账号准备
-- GitHub 账号  
-- Microsoft Azure 账号（可申请学生版/试用版）  
+- **Azure AI Foundry** 订阅
+- **Copilot Studio** 订阅
+- **插件**
 
 ---
 
@@ -55,8 +50,9 @@
 
 ### 必备组件
 - GitHub Copilot 插件  
-- Azure Tools 插件  
-- Markdown Preview 插件  
+- Azure AI Foundry 插件
+- 中文插件
+- 其他
 
 ---
 
@@ -71,8 +67,8 @@
 
 ### 如何注册与配置
 - 注册 GitHub 账号  
-- 生成 SSH Key 并绑定  
-- 创建第一个仓库  
+- 创建第一个仓库
+- 在VS Code中打开库
 
 ---
 
@@ -87,9 +83,8 @@
 
 ### 如何获取 API
 - 创建 Azure 账号  
-- 在 Azure 门户中启用 Azure OpenAI 服务  
+- 在 Azure AI Foundry门户中启用LLM  
 - 获取 API Key 与 Endpoint  
-- 在多轮对话中调用 API  
 
 ---
 
@@ -111,9 +106,10 @@
 - 在 VS Code 中安装并绑定 Copilot 插件  
 
 ### 使用模式
-- **行内补全**  
-- **代码块生成**  
-- **自然语言转代码**  
+- **代码补全**  
+- **Ask模式**
+- **Edit模式**
+- **Agent模式**  
 
 ---
 
@@ -131,8 +127,8 @@
 ### 项目二：俄罗斯方块游戏
 - 使用自然语言生成初始版本  
 - 通过 LLM 优化界面与逻辑  
-- 输出说明文档  
-- 上传至 GitHub  
+- 输出Markdown文档  
+- 提交并上传至 GitHub
 
 ---
 
@@ -145,7 +141,7 @@
 - 构建对话链路  
 
 ### 前端实现
-- 调用 Azure OpenAI API  
+- 调用 Azure AI Fountry API  
 - 使用 HTML/JS 简单实现聊天界面  
 
 ### 后端与记忆存储
@@ -160,8 +156,9 @@
 
 ### 实践内容
 - 仓库介绍与克隆  
-- 项目汉化与说明  
-- Step-by-Step 开发流程  
+- 项目汉化
+- 项目说明  
+- Step-by-Step 流程  
   - 文件结构  
   - 前端实现  
   - 后端实现  
@@ -199,7 +196,3 @@
 
 ---
 ```
-
----
-
-要不要我再帮你加一份 **README.md 示例**，专门给 GitHub 仓库首页用，能让人一眼就了解这是一个“微软 AI 入门课程”？
