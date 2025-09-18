@@ -1,4 +1,4 @@
-# AI 基础课程 (基于Microsoft产品)
+# 董老师的基础AI课 (基于Microsoft产品)
 
 ## 1. 简介
 ### 适用人群
@@ -180,19 +180,3 @@
 - 集成 Teams / Outlook 使用  
 
 ---
-
-## 附录
-### 推荐学习路径
-1. 基础环境搭建（VS Code + GitHub + Azure AI Foundry）  
-2. Copilot 入门与项目实战（彩票 & 俄罗斯方块）  
-3. 多轮对话程序（前端 + 后端 + LangChain）  
-4. Vibe Coding 与项目沉浸式开发  
-5. 智能体与企业级应用（Copilot Studio 集成）  
-
-### 延伸学习
-- Azure Machine Learning  
-- Microsoft Fabric 与数据智能  
-- 企业级 AI 安全与合规  
-
----
-```
