@@ -1,4 +1,4 @@
-# AI 基础课程 (Microsoft)
+# AI 基础课程 (基于Microsoft产品)
 
 ## 1. 简介
 ### 适用人群
