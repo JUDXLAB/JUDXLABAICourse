@@ -1,8 +1,9 @@
-# 董老师的基础AI课 (基于Microsoft产品)
+# 董老师的基础AI课 (写给我辈运维人的AI小白课-微软方向)
 
 ## 1. 简介
 ### 适用人群
-- 所有人 
+- 写给我辈运维人的AI小白课
+- 微软方向，能用微软全家桶的全用微软全家桶
 
 ### 学习收获
 - 掌握微软 AI 生态的核心工具与服务  
@@ -25,11 +26,23 @@
 
 ---
 
-## 2. 环境准备
+## 2. 基础概念
+
+### 核心概念
+- Transformer
+- Temperature\Top-P
+- Tokenization
+- Context Windows
+- Prompt Engineering
+- AI Agent
+- RAG（检索增强生成)
+- 微调（Fine-tuning）
+- MCP（Model Context Protocol）
+
 ### 必备条件
 - Windows 10/11 或 macOS 环境  
 - 稳定的网络（可访问 GitHub 与 Azure 服务）  
-- Git 与 Node.js 基础环境  
+- Git和IDE基础环境  
 
 ### 工具安装清单
 - **Visual Studio Code**  
@@ -72,7 +85,7 @@
 
 ---
 
-## 5. Azure AI Foundry
+## 5. Azure AI Foundry（OpenAI）
 ### 什么是 Azure AI Foundry
 微软提供的 AI 服务平台（包括 Azure OpenAI、模型管理、数据集成）。  
 
@@ -88,7 +101,7 @@
 
 ---
 
-## 6. GitHub Copilot
+## 6. GitHub Copilot(Github Colipot\OpenAI Codex\Claude Code)
 ### 什么是 GitHub Copilot
 由 OpenAI Codex 驱动的 AI 编程助手。  
 
@@ -113,18 +126,18 @@
 
 ---
 
-## 7. 实战项目 1：生成彩票号码与俄罗斯方块
+## 7. 实战项目 1：IT运维工具
 ### 创建代码仓库
 - 新建仓库  
 - 使用分支进行开发  
 
-### 项目一：彩票号码生成器
+### 项目一：AD健康检查自动化
 - 使用自然语言生成代码  
 - 通过 LLM 优化逻辑  
 - 输出结果到 Markdown 文档  
 - 提交并上传至 GitHub  
 
-### 项目二：俄罗斯方块游戏
+### 项目二：Exchange Server健康检查自动化（参考CSS-Exchange）
 - 使用自然语言生成初始版本  
 - 通过 LLM 优化界面与逻辑  
 - 输出Markdown文档  
@@ -137,16 +150,16 @@
 - 简单代码补全与问答  
 
 ### LangChain 入门
-- 介绍 LangChain 框架  
-- 构建对话链路  
+- 介绍 LangChain(Semantic Kernel)框架  
+- 构建多轮对话链路并实现上下文管理  
 
 ### 前端实现
 - 调用 Azure AI Fountry API  
-- 使用 HTML/JS 简单实现聊天界面  
+- 使用 Vue/Streamlit实现简单聊天界面  
 
 ### 后端与记忆存储
-- Python/Node.js 服务端  
-- 使用内存/数据库存储会话上下文  
+- 使用FastAPI后端  
+- 集成 LangChain Memory模块  
 
 ---
 
@@ -154,19 +167,21 @@
 ### 概念
 以“氛围驱动”的轻量化编程方式，让 AI 辅助开发更加沉浸。  
 
+- **介绍spec-kit**  
+
 ### 实践内容
 - 仓库介绍与克隆  
 - 项目汉化
 - 项目说明  
 - Step-by-Step 流程  
   - 文件结构  
-  - 前端实现  
-  - 后端实现  
-  - 数据库实现  
+  - 前端实现  (Streamlit)
+  - 后端实现  (FastAPI)
+  - 数据库实现（PostgreSQL）
 
 ---
 
-## 10. 智能体与 Copilot Studio
+## 10. 智能体与 Copilot Studio(Dify\N8N\Coze)
 ### 什么是 Copilot Studio
 微软提供的低代码 AI 应用构建工具，可快速生成智能体。  
 
