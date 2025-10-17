@@ -35,9 +35,9 @@
 - Context Windows
 - Prompt Engineering
 - AI Agent
-- RAG（检索增强生成)
-- 微调（Fine-tuning）
-- MCP（Model Context Protocol）
+- RAG
+- Model Context Protocol
+- Fine-tuning）
 
 ### 必备条件
 - Windows 10/11 或 macOS 环境  
@@ -59,7 +59,7 @@
 
 ### 安装与配置
 - 下载并安装 VS Code  
-- 配置常用开发语言扩展（Python、JavaScript、C# 等）  
+- 配置常用开发语言和脚本语言（Python、PS 等）  
 
 ### 必备组件
 - GitHub Copilot 插件  
@@ -75,13 +75,13 @@
 
 ### 用途
 - 托管代码与文档  
-- 协作开发与分支管理  
+- 分支管理  
 - 自动化 CI/CD 工作流  
 
 ### 如何注册与配置
 - 注册 GitHub 账号  
 - 创建第一个仓库
-- 在VS Code中打开库
+- 在VS Code中克隆库
 
 ---
 
@@ -139,7 +139,7 @@
 
 ### 项目二：Exchange Server健康检查自动化（参考CSS-Exchange）
 - 使用自然语言生成初始版本  
-- 通过 LLM 优化界面与逻辑  
+- 通过 LLM 优化逻辑  
 - 输出Markdown文档  
 - 提交并上传至 GitHub
 
