@@ -1,4 +1,4 @@
-# 董老师的基础AI课 (写给运维人的AI小白课-微软方向)
+# 董老师的基础AI课 (For Beginner and Based on Microsoft Products)
 
 ## 1. 简介
 ### 适用人群
