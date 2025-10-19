@@ -36,7 +36,7 @@
 - AI Agent
 - RAG
 - Model Context Protocol
-- Fine-tuning）
+- Fine-tuning
 
 ### 必备条件
 - Windows 10/11 或 macOS 环境  
@@ -84,7 +84,7 @@
 
 ---
 
-## 5. Azure AI Foundry（OpenAI）
+## 5. Azure AI Foundry
 ### 什么是 Azure AI Foundry
 微软提供的 AI 服务平台（包括 Azure OpenAI、模型管理、数据集成）。  
 
@@ -100,7 +100,7 @@
 
 ---
 
-## 6. GitHub Copilot(Github Colipot\OpenAI Codex\Claude Code)
+## 6. GitHub Copilot(可替代 OpenAI Codex\Claude Code\Cursor)
 ### 什么是 GitHub Copilot
 由 OpenAI Codex 驱动的 AI 编程助手。  
 
@@ -162,11 +162,11 @@
 
 ---
 
-## 9. Vibe Coding
+## 9. Vibe Coding (Agent Mode)
 ### 概念
 以“氛围驱动”的轻量化编程方式，让 AI 辅助开发更加沉浸。  
 
-- **介绍spec-kit**  
+### 介绍spec-kit**  
 
 ### 实践内容
 - 仓库介绍与克隆  
@@ -180,7 +180,7 @@
 
 ---
 
-## 10. 智能体与 Copilot Studio(Dify\N8N\Coze)
+## 10. Copilot Studio(低代码)
 ### 什么是 Copilot Studio
 微软提供的低代码 AI 应用构建工具，可快速生成智能体。  
 
@@ -188,9 +188,11 @@
 - **Copilot Studio**：自然语言驱动、构建智能体对话流程  
 - **Power Automate**：偏向自动化流程编排  
 
-### 实战案例：请假与 HR 查询
-- 构建请假申请智能体  
-- 构建 HR 数据查询智能体  
-- 集成 Teams / Outlook 使用  
+### 实战案例：TBD
+- 构建多智能体协作
+- 创建实体和意图识别模型
+- 设计并集成 Flow 流程
+- 与 Teams / Outlook 深度集成，实现企业级应用  
 
 ---
+
